@@ -1,3 +1,5 @@
+install.packages('snow')
+
 library(parallel)
 
 filenames = c("arr1", "arr2", "arr3", "arr2003", "arr2004", "arr2005", "arr2006", "arr2007", "arr5", "arr6")
